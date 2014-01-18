@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	color:#FFFFFF;
+	background-color: #333333;
+	font-family:  Georgia, "Times New Roman", Times, serif;
+	width:1600px;
+	heigh:1200px;
+
+}
+.wrapper {
+
+width:980px;
+margin-left:auto;
+margin-right:auto;
+}
+nav {
+	background-color:#871831;
+	text-decoration:none;
+	text-align: center;
+	display: block;
+}
+
+header {
+background-color: #000000;
+padding-bottom: 15px;
+
+}
+a {
+
+	text-decoration: none;
+	color:#FFFFFF;
+
+}
+
+a:hover {
+
+	
+	text-decoration: underline;
+
+}
+
+.actual-table {
+
+	border-collapse: collapse;
+	width: 100%;
+
+
+}
+
+.actual-table td {
+
+width:50%;
+padding: 10px;
+vertical-align: top;
+
+}
+
+.actual-table td:nth-child(even) {
+
+	background-color:#D4AC74;
+	color:#111111;
+	width: 30%;
+
+}
+
+.actual-table td:nth-child(odd) {
+
+
+	
+	width:70%;
+	
+}
+
+
+.actual-table td:nth-child(odd) h1 {
+text-shadow: 1px 1px #000000;
+font-size: large;
+}
+.actual-table td:nth-child(even) h1 {
+text-shadow: 1px 1px #000000;
+font-size: large;
+}
+
+.actual-table td:nth-child(odd) p {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+}
+.actual-table td:nth-child(even) p {
+	color:#FFFFFF;
+	text-shadow: 1px 1px #000000;
+}
+
+.results {
+
+	background-image: url('/webFiles/courseWork/media/castle.jpg');
+	padding-bottom: 1024px;
+	background-size:cover;
+
+
+
+
+}
+footer{
+	clear:both;
+
+	background-color:#333333;
+	color:#FFFFFF;
+
+}
